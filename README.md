@@ -1,6 +1,6 @@
 
 
-
+## 加密软件
 
 通过互联网传输文件，如何保证信息安全呢？
 
@@ -10,7 +10,7 @@
 
 
 
-程序介绍
+### 程序介绍
 
 1、客户端仅能解密服务器端加密的文件；客户端加密文件时， 使用公钥，椭圆曲线加密算法
 
@@ -23,38 +23,38 @@
 
 
 
-使用方法
+### 使用方法
 
 将项目下载到本地计算机上，本地计算机需要安装Go的开发环境，以下命令均在项目根目录中进行
 
 一、创建图标资源
 
-	windres -o main.syso main.rc
+`windres -o main.syso main.rc`
 
 
 二、创建密钥数据
 
-	1、将main.go文件中的 main()  函数注掉，并将 main2()  函数，改成 main() 
+* 将main.go文件中的 main()  函数注掉，并将 main2()  函数，改成 main() 
 
-	2、在命令行窗口执行：go run main.go
+* 在命令行窗口执行：`go run main.go`
 
-	3、程序执行后，在项目根目录中，生成文本文件：my_crypt.txt，将其中的AES密钥、ZIP密钥、ECC私钥、ECC公钥，对应的字符串依次复制，替换main.go文件中的AesKeys、ZipKeys、X509PrivateKeys、X509PublicKeys对应的值
+* 程序执行后，在项目根目录中，生成文本文件：my_crypt.txt，将其中的AES密钥、ZIP密钥、ECC私钥、ECC公钥，对应的字符串依次复制，替换main.go文件中的AesKeys、ZipKeys、X509PrivateKeys、X509PublicKeys对应的值
 
 
 三、创建可执行程序
 
-	1、将main.go文件中的 main()  函数注掉，并解除原先的 main()  函数的注释 ；
+    * 将main.go文件中的 main()  函数注掉，并解除原先的 main()  函数的注释 ；
 
-	2、将main.go文件中，常量 IsServer 赋值为 false，执行命令创建客户端：go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Client.exe
+    * 将main.go文件中，常量 IsServer 赋值为 false，执行命令创建客户端：`go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Client.exe`
 
-	3、将main.go文件中，常量 IsServer 赋值为 true，执行命令创建服务端：go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Server.exe
+    * 将main.go文件中，常量 IsServer 赋值为 true，执行命令创建服务端：`go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Server.exe`
 
 
-补充说明
+### 补充说明
 
-	1、main.go文件中，resourceGongfuPng变量的StaticContent是一张图片对应的字节数组，用于生成密钥时的种子数据，您可以换成其他的字节数组；
+1、main.go文件中，resourceGongfuPng变量的StaticContent是一张图片对应的字节数组，用于生成密钥时的种子数据，您可以换成其他的字节数组；
 
-	2、生成的客户端和服务端的序列号（CN）时一致的
+2、生成的客户端和服务端的序列号（CN）时一致的
 
 
 
@@ -114,7 +114,7 @@ protected void onDestroy() {
  
 5、其他引用
 图片  
-![图片名称](https://k.sinaimg.cn/n/news/transform/266/w640h426/20241203/4b1b-fd5e7e8cdebbc8da96df44310731e731.jpg/w230h154f1t0l50q90c55.jpg)  
+![图片名称](https://www.baidu.com/img/bd_logo1.png)  
 链接  
 [链接名称](https://www.baidu.com/)    
 6、列表 
@@ -134,6 +134,12 @@ protected void onDestroy() {
 8、引用
 > 第一行引用文字  
 > 第二行引用文字   
+
+Here's a sample video:
+
+![Sample Video](https://github.com/user-attachments/assets/cb8e4161-5573-48d4-965c-f7f1e58b8251)
+
+
 Here's a sample video:
 
 ![Sample Video](https://private-user-images.githubusercontent.com/19700138/391949025-cb8e4161-5573-48d4-965c-f7f1e58b8251.mp4)
@@ -141,5 +147,4 @@ Here's a sample video:
 9.引用
 
 <video src="https://private-user-images.githubusercontent.com/19700138/391949025-cb8e4161-5573-48d4-965c-f7f1e58b8251.mp4" controls="controls" width="500" height="300"></video>
-
 

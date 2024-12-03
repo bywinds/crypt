@@ -8,7 +8,7 @@
 
 这种加密方式，以目前计算机的算力，很难破解，非常安全；同时加密后的文件，经过了压缩，大幅减少体积，便于网络传输。
 
-
+<br>
 
 ### 程序介绍
 
@@ -20,8 +20,7 @@
 
 4、使用ZIP压缩，AES256加密	
 
-
-
+<br>
 
 ### 使用方法
 
@@ -43,18 +42,19 @@ __二、创建密钥数据__
 
 __三、创建可执行程序__
 
-   * 将main.go文件中的 main()  函数注掉，并解除原先的 main()  函数的注释 ；
+* 将main.go文件中的 main()  函数注掉，并解除原先的 main()  函数的注释 ；
 
-   * 将main.go文件中，常量 IsServer 赋值为 false，执行命令创建客户端：`go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Client.exe`
+* 将main.go文件中，常量 IsServer 赋值为 false，执行命令创建客户端：  `go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Client.exe`
 
-   * 将main.go文件中，常量 IsServer 赋值为 true，执行命令创建服务端：`go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Server.exe`
+* 将main.go文件中，常量 IsServer 赋值为 true，执行命令创建服务端：  `go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Server.exe`
 
+<br>
 
 ### 补充说明
 
-1、main.go文件中，resourceGongfuPng变量的StaticContent是一张图片对应的字节数组，用于生成密钥时的种子数据，您可以换成其他的字节数组；
+* main.go文件中，resourceGongfuPng变量的StaticContent是一张图片对应的字节数组，用于生成密钥时的种子数据，您可以换成其他的字节数组；
 
-2、生成的客户端和服务端的序列号（CN）时一致的
+* 生成的客户端和服务端的序列号（CN）时一致的
 
 
 

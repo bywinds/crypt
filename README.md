@@ -58,19 +58,13 @@ __三、创建可执行程序__
 
 * main.go文件中，resourceGongfuPng变量的StaticContent是一张图片对应的字节数组，用于生成密钥时的种子数据，您可以换成其他的字节数组；
 
-* 生成的客户端和服务端的序列号（CN）时一致的 controls="controls" width="500" height="3000"
+* 生成的客户端和服务端的序列号（CN）时一致的 controls="controls" width="500" height="300"
 
 <br>
 
-如果您对程序有疑问，可以向我询问
+如果您对程序有疑问，可以向我询问。如果您支持我的工作，可以送我一杯咖啡，谢谢！
 
-![客户端](https://filescdn.proginn.com/works/969a653473c322679159ea9ecce52cfc76684879.png)  
-
-<br>
-
-如果您支持我的工作，可以送我一杯咖啡，谢谢！
-
-![客户端](https://filescdn.proginn.com/works/969a653473c322679159ea9ecce52cfc76684879.png)  
+![打赏](https://private-user-images.githubusercontent.com/19700138/391989395-107781f6-d07b-40d3-bf02-e1b56577104d.png)  
 
 <br>
 

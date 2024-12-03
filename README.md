@@ -44,9 +44,11 @@ __三、创建可执行程序__
 
 * 将main.go文件中的 main()  函数注掉，并解除原先的 main()  函数的注释 ；
 
-* 将main.go文件中，常量 IsServer 赋值为 false，执行命令创建客户端：  `go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Client.exe`
+* 将main.go文件中，常量 IsServer 赋值为 false，执行命令创建客户端：  
+* `go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Client.exe`
 
-* 将main.go文件中，常量 IsServer 赋值为 true，执行命令创建服务端：  `go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Server.exe`
+* 将main.go文件中，常量 IsServer 赋值为 true，执行命令创建服务端：  
+* `go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Server.exe`
 
 <br>
 

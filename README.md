@@ -136,6 +136,10 @@ protected void onDestroy() {
 > 第二行引用文字   
 Here's a sample video:
 
-![Sample Video](https://github.com/user-attachments/assets/cb8e4161-5573-48d4-965c-f7f1e58b8251)
+![Sample Video](https://private-user-images.githubusercontent.com/19700138/391949025-cb8e4161-5573-48d4-965c-f7f1e58b8251.mp4)
+
+9.引用
+
+<video src="https://private-user-images.githubusercontent.com/19700138/391949025-cb8e4161-5573-48d4-965c-f7f1e58b8251.mp4" controls="controls" width="500" height="300"></video>
 
 

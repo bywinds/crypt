@@ -27,12 +27,12 @@
 
 将项目下载到本地计算机上，本地计算机需要安装Go的开发环境，以下命令均在项目根目录中进行
 
-一、创建图标资源
+__一、创建图标资源__
 
 `windres -o main.syso main.rc`
 
 
-二、创建密钥数据
+__二、创建密钥数据__
 
 * 将main.go文件中的 main()  函数注掉，并将 main2()  函数，改成 main() 
 
@@ -41,13 +41,13 @@
 * 程序执行后，在项目根目录中，生成文本文件：my_crypt.txt，将其中的AES密钥、ZIP密钥、ECC私钥、ECC公钥，对应的字符串依次复制，替换main.go文件中的AesKeys、ZipKeys、X509PrivateKeys、X509PublicKeys对应的值
 
 
-三、创建可执行程序
+__三、创建可执行程序__
 
-    * 将main.go文件中的 main()  函数注掉，并解除原先的 main()  函数的注释 ；
+   * 将main.go文件中的 main()  函数注掉，并解除原先的 main()  函数的注释 ；
 
-    * 将main.go文件中，常量 IsServer 赋值为 false，执行命令创建客户端：`go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Client.exe`
+   * 将main.go文件中，常量 IsServer 赋值为 false，执行命令创建客户端：`go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Client.exe`
 
-    * 将main.go文件中，常量 IsServer 赋值为 true，执行命令创建服务端：`go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Server.exe`
+   * 将main.go文件中，常量 IsServer 赋值为 true，执行命令创建服务端：`go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Server.exe`
 
 
 ### 补充说明

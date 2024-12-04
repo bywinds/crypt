@@ -47,10 +47,10 @@ __三、创建可执行程序__
 * 将main.go文件中的 main()  函数注掉，并解除原先的 main()  函数的注释 ；
 
 * 将main.go文件中，常量 IsServer 赋值为 false，执行命令创建客户端：  
-* `go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Client.exe`
+`go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Client.exe`
 
 * 将main.go文件中，常量 IsServer 赋值为 true，执行命令创建服务端：  
-* `go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Server.exe`
+`go build -ldflags="-H windowsgui -w -s" -o E:\Desktop\Server.exe`
 
 <br>
 
@@ -65,7 +65,7 @@ __三、创建可执行程序__
 
 ___如果您对程序有疑问，可以向我询问。如果您支持我的工作，可以送我一杯咖啡，谢谢！___
 
-![打赏](https://private-user-images.githubusercontent.com/19700138/391989395-107781f6-d07b-40d3-bf02-e1b56577104d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMyMzQyNTEsIm5iZiI6MTczMzIzMzk1MSwicGF0aCI6Ii8xOTcwMDEzOC8zOTE5ODkzOTUtMTA3NzgxZjYtZDA3Yi00MGQzLWJmMDItZTFiNTY1NzcxMDRkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAzVDEzNTIzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRhMjI1OGQwODhhZTc3OWJkN2IyZjk2YjAwOTExZTI3NDBhYzRkOGNkYWQ0M2ZmMzliMjE4ZGZhNTYyMjA3NzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Pl7B_wdU1mTwaUB5FzRYpRXMvbvu6rOA7THrjmbXH9A)  
+![打赏](https://private-user-images.githubusercontent.com/19700138/391989395-107781f6-d07b-40d3-bf02-e1b56577104d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMyNzk3ODksIm5iZiI6MTczMzI3OTQ4OSwicGF0aCI6Ii8xOTcwMDEzOC8zOTE5ODkzOTUtMTA3NzgxZjYtZDA3Yi00MGQzLWJmMDItZTFiNTY1NzcxMDRkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjA0VDAyMzEyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWExN2FjYmU0ODI4Yjk3M2UwMTAzNDNmNzRhNjQ5NDVmNTNiODdjZmVhMDUwOWNmN2IxMDQ1Yjc0ZDQ0ODA2OTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.q1KPeCRQpm9jQ50XbreDdd-WXIoPlGxWv3hjV841ePE)  
 
 <br>
 
